@@ -1,0 +1,15 @@
+POST http://localhost:8080/book
+Content-Type: application/x-www-form-urlencoded;charset=utf-8
+
+title=zażółć gęślą jaźń&description=jakiś opis&rating=1&publisherName=helion&authorId=1&authorId=2
+###
+
+GET http://localhost:8080/book/1
+###
+GET http://localhost:8080/books
+###
+
+PUT http://localhost:8080/book/1?title=zażółć gęślą jaźń123&description=jakiś opis123&rating=3
+
+###
+DELETE http://localhost:8080/book/1

@@ -1,0 +1,2 @@
+insert into authors(firstName, lastName) values ('Jan', 'Kowalski'), ('Adam', 'Nowak'), ('Adam', 'Mickiewicz'),('Joseph', 'Heller');
+insert into publishers(name) values ('Helion'), ('Albatros'), ('Nowy Świat'), ('Luna'), ('Egmont')
